@@ -35,7 +35,11 @@ tasks.jar {
 	enabled = false
 }
 
-tasks.bootJar {
-	enabled = true
-	mainClassName = "com.example.demo.DemoApplication"
+
+springBoot {
+	mainClass = 'com.example.demo.DemoApplication'
 }
+//tasks.bootJar {
+//	enabled = true
+//	mainClassName = "com.example.demo.DemoApplication"
+//}
