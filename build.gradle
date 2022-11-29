@@ -7,6 +7,7 @@ plugins {
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
+archivesBaseName = 'springboot-deploy'
 
 configurations {
 	compileOnly {
@@ -27,4 +28,14 @@ dependencies {
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+
+tasks.jar {
+	enabled = false
+}
+
+tasks.bootJar {
+	enabled = true
+	mainClassName = "com.example.demo.DemoApplication"
 }
