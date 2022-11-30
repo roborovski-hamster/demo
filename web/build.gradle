@@ -1,0 +1,15 @@
+dependencies {
+    implementation project(':core')
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
+
+springBoot {
+    mainClass = 'com.example.demo.DemoApplication'
+}
