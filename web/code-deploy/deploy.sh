@@ -4,6 +4,8 @@ JAR_NAME=$(basename $BUILD_PATH)
 echo "> build 파일명: $JAR_NAME"
 
 echo "> build 파일 복사"
+mkdir -p /home/ec2-user/app
+mkdir -p /home/ec2-user/app/web
 DEPLOY_PATH=/home/ec2-user/app/web
 cp $BUILD_PATH $DEPLOY_PATH
 
