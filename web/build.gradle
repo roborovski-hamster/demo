@@ -11,5 +11,5 @@ jar {
 }
 
 springBoot {
-    mainClass = 'com.example.demo.DemoApplication'
+    mainClass = 'com.example.demo.WebApplication'
 }
