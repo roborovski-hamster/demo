@@ -2,12 +2,12 @@ dependencies {
     implementation project(':core')
 }
 
-bootJar {
-    enabled = false
-}
+//bootJar {
+//    enabled = false
+//}
 
 jar {
-    enabled = true
+    enabled = false
 }
 
 springBoot {
