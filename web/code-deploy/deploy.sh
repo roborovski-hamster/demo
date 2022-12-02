@@ -31,4 +31,5 @@ fi
 echo "> $APPLICATION_JAR 배포"
 #sudo service $MODULE start
 sudo systemctl start $MODULE
+
 #nohup java -jar $APPLICATION_JAR > /dev/null 2> /dev/null < /dev/null &
